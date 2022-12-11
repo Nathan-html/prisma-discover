@@ -8,7 +8,8 @@
     "typescript": "4.3.4"
   },
   "scripts": {
-    "dev": "ts-node ./script.ts",
+    "dev": "ts-node ./remove-db.ts && npm run init && npm run start",
+    "start": "ts-node ./script.ts",
     "init": "npx prisma db push"
   },
   "dependencies": {

@@ -1,0 +1,313 @@
+GET http://localhost:3000/feed?searchString=hello&skip=1&take=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T010801.200.json
+
+###
+
+GET http://localhost:3000/feed?searchString=hello&skip=1&take=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T010757.200.json
+
+###
+
+GET http://localhost:3000/feed?searchString=t&skip=1&take=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T010751.200.json
+
+###
+
+GET http://localhost:3000/searchString=t&feed?skip=1&take=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T010603.404.html
+
+###
+
+GET http://localhost:3000/feed?take=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T010530.200.json
+
+###
+
+GET http://localhost:3000/feed?test=
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T010512.200.json
+
+###
+
+GET http://localhost:3000/feed
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T010502.200.json
+
+###
+
+PUT http://localhost:3000/publish/2
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T010458.200.json
+
+###
+
+PUT http://localhost:3000/publish/1
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T010454.200.json
+
+###
+
+GET http://localhost:3000/feed
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T010430.200.json
+
+###
+
+GET http://localhost:3000/user/3/drafts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T001924.200.json
+
+###
+
+PUT http://localhost:3000/post/1/views
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T001814.200.json
+
+###
+
+PUT http://localhost:3000/post/1/views
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T001807.200.json
+
+###
+
+PUT http://localhost:3000/post/1/views
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-12T000042.200.json
+
+###
+
+POST http://localhost:3000/post
+Content-Type: application/json
+Content-Length: 63
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Hello World",
+  "authorEmail": "burk@prisma.io"
+}
+
+<> 2022-12-12T000034.200.json
+
+###
+
+POST http://localhost:3000/post
+Content-Type: application/json
+Content-Length: 63
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Hello World",
+  "authorEmail": "burk@prisma.io"
+}
+
+<> 2022-12-11T235324.200.json
+
+###
+
+GET http://localhost:3000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-11T234740.200.json
+
+###
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Nikolas",
+  "email": "burk2@prisma.io"
+}
+
+<> 2022-12-11T234727.200.json
+
+###
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+Content-Length: 52
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Nikolas",
+  "email": "burk@prisma.io"
+}
+
+<> 2022-12-11T234657.200.json
+
+###
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+Content-Length: 52
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Nikolas",
+  "email": "burk@prisma.io"
+}
+
+<> 2022-12-11T234645.200.json
+
+###
+
+GET http://localhost:3000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-11T234643.200.json
+
+###
+
+GET http://localhost:3000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-11T234628.200.json
+
+###
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+Content-Length: 52
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Nikolas",
+  "email": "burk@prisma.io"
+}
+
+<> 2022-12-11T234621.200.json
+
+###
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+Content-Length: 52
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Nikolas",
+  "email": "burk@prisma.io"
+}
+
+<> 2022-12-11T234617.200.json
+
+###
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+Content-Length: 52
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Nikolas",
+  "email": "burk@prisma.io"
+}
+
+<> 2022-12-11T234615.200.json
+
+###
+
+GET http://localhost:3000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-11T234606.200.json
+
+###
+
+GET http://localhost:3000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-11T224515.200.json
+
+###
+
+GET http://localhost:3000/users
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-11T222254.200.json
+
+###
+
